@@ -31,7 +31,7 @@ const App: React.FC = () => {
         setTranslation("");
 
         try {
-            const response = await fetch("http://localhost:8777/translate", {
+            const response = await fetch("https://translator-java.onrender.com/translate", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
