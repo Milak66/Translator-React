@@ -6,9 +6,13 @@
     min-height: 100vh;
     position: relative;
     padding: 0 6vw;
-    background-image: url(../../assets/697b00d2b6bcf68cbb94f9da415dec98.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background:
+        radial-gradient(
+            circle at 50% 15%,
+            rgba(111, 61, 185, 0.2),
+            transparent 35%
+        ),
+        #090611;
 }
 
 button,
@@ -57,13 +61,12 @@ button {
 }
 
 .hero h1 span {
-    background:
-        linear-gradient(
-            110deg,
-            #ffffff,
-            #c875ff 48%,
-            #8c35ff
-        );
+    background: linear-gradient(
+        110deg,
+        #ffffff,
+        #c875ff 48%,
+        #8c35ff
+    );
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -270,12 +273,11 @@ textarea::placeholder {
     border: 1px solid rgba(220, 140, 255, 0.35);
     border-radius: 0.8vw;
     color: white;
-    background:
-        linear-gradient(
-            135deg,
-            #a52cff,
-            #6416d8
-        );
+    background: linear-gradient(
+        135deg,
+        #a52cff,
+        #6416d8
+    );
     box-shadow:
         0 0 2vw rgba(160, 40, 255, 0.2),
         inset 0 1px rgba(255, 255, 255, 0.17);
